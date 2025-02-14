@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion";
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import gooseGlassesLarge from '../public/gooseGlassesLarge.png'
 import gooseHeartLarge from '../public/gooseHeartLarge.png'
 import balloon from '../public/balloon.png'
