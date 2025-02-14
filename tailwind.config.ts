@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        moveUp: {
+          "0%": { transform: "translateY(100vh)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        moveUp: "moveUp 2s ease-in-out forwards",
+      },
     },
   },
   plugins: [],
